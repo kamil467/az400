@@ -128,6 +128,13 @@ Team Foundation Version Control (TFVC):
 - TFVC is a centralized version control system. Typically, team members have only one version of each file on their dev machines. Historical data is maintained only on the server. Branches are path-based and created on the server.
 
 - Git: Git is a distributed version control system. Git repositories can live locally (on a developer's machine). Each developer has a copy of the source repository on their dev machine. Developers can commit each set of changes on their dev machine, perform version control operations such as history, and compare without a network connection.
+- 
+### Code Review"
+High-quality reviews start with high-quality feedback. The keys to great feedback in a pull request are:
+- Have the right people review the pull request.
+- Make sure that reviewers know what the code does.
+- Give actionable, constructive feedback.
+- Reply to comments promptly.
 
 
 
