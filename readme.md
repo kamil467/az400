@@ -63,4 +63,10 @@ It means that each contributor has two Git repositories:
    - each PR megre should create a new version of branch.
    - it is always better to create a tag and deploy the code from that tag
      
+### Feature Branch
+#
+- Use feature branches for all new features and bug fixes.
+- Use feature flags to manage long-running feature branches.
+- Changes from feature branches to the main only flow through pull requests.
+- Name your feature to reflect its purpose.
      
