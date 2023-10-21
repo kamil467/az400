@@ -84,7 +84,7 @@ A critical bug is identified in production how to roll-out the fix ?
 - fix the bugs in that feature branch
 - deploy the code from feature branch to production.
 - Now it is time for merge feature branch bug fix to main branch.
-- create tag in feature branch for bug release  and create PR for merging the feature branch bug fixes to main branch.
+- create tag in feature branch for bug release  and create PR for merging the feature branch bug fixes to main branch. ( you know why we creating tag ? from feature branch ? - once your PR merged, you will probably delete the feature branch but tags will remain available in the history )
 
 There is an alternative approach instead of directly deploying from feature branch , you can merge your changes into main branch and trigger the pipeline.
 in most scenarios your main pipeline configured with well set of jobs and policies. so it is a best practice that deploying code from main branch.
