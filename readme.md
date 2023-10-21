@@ -57,6 +57,19 @@ It is best suit for open-source projects.
 - the contributor can accept your commits without giving you access to main repo.
 - Then, they file a pull request with the main repository, which lets the project maintainer know that an update is ready to be integrated.
 
+  The following is a step-by-step example of this workflow:
+  #
+  
+- A developer 'forks' an 'official' server-side repository. It creates their server-side copy.
+- The new server-side copy is cloned to their local system.
+- A Git remote path for the 'official' repository is added to the local clone.
+- A new local feature branch is created.
+- The developer makes changes to the new branch.
+- New commits are created for the changes.
+- The branch gets pushed to the developer's server-side copy.
+- The developer opens a pull request from the new branch to the 'official' repository.
+- The pull request gets approved for merge and is merged into the original server-side repository.
+
 #
  ### Main/develop branch characteristics:
 
