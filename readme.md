@@ -129,13 +129,28 @@ Team Foundation Version Control (TFVC):
 
 - Git: Git is a distributed version control system. Git repositories can live locally (on a developer's machine). Each developer has a copy of the source repository on their dev machine. Developers can commit each set of changes on their dev machine, perform version control operations such as history, and compare without a network connection.
 - 
-### Code Review"
+### Code Review:
 High-quality reviews start with high-quality feedback. The keys to great feedback in a pull request are:
 - Have the right people review the pull request.
 - Make sure that reviewers know what the code does.
 - Give actionable, constructive feedback.
 - Reply to comments promptly.
 
+#
+ ### Technical Debt:
+ There are five key traits to measure for higher quality.
+ most of these can be determined by runnning various quality scans on codebase.
+- Reliability:Reliability measures the probability that a system will run without failure over a specific period of operation. It relates to the number of defects and availability of the software. Several defects can be measured by running a static analysis tool.
+Software availability can be measured using the mean time between failures (MTBF).
+Low defect counts are crucial for developing a reliable codebase.
+
+- Maintability : It relates to the codebase's size, consistency, structure, and complexity - we have code metrics dotnet tool available for analysing maintaibility of code base.
+-   Testability: Testability can be measured based on how many test cases you need to find potential faults in the system.
+-   Portability: Portability measures how usable the same software is in different environments. It relates to platform independence.
+                  - using different agents to build and deploying into multiple enviornments before release it to production.
+                  - It's also good to set your compiler warning levels as high as possible and use at least two compilers. How to use two compilers for dotnet ?
+                  - Enforcing a coding standard also helps with portability. 
+- Reusability : loose coupling , shared code base - how do you find reusability ? running static analysis.
 
 
 
