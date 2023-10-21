@@ -34,5 +34,11 @@ Monorepo vs multi repo advantages and challenges
 - Merge methods in PR ( rebase, squash)
 - content recovery for repos and branches( recover content from accidental deletion)
 - Access policies (repos and branch level)
-- 
 
+### Git branching workflow startegy:
+
+Trunk-based development ( also known as feature branch development)
+- Trunk-based development is a logical extension of Centralized Workflow.
+- The core idea behind the Feature Branch Workflow is that all feature development should take place in a dedicated branch instead of the main branch.
+- This encapsulation makes it easy for multiple developers to work on a particular feature without disturbing the main codebase.
+- It also means the main branch should never contain broken code, which is a huge advantage for continuous integration environments.
