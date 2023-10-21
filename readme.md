@@ -6,4 +6,15 @@
   - Implement an instrumentation strategy
 
 
+
+
+#### Design and implement Source Control
+#
+Monorepo vs multi repo advantages and challenges
+
+| Monorepo | Multi-repo|
+| ---- | ---|
+| Advantages: easy to share and maintain code, easy for applying tools and policies , single view of discoverability | helps in microservices architecture, team ownership, individual teams own the repos, promote code decoupling |
+| Challenges : too complex to maintain when code base large , single code change could affect multiple teams |  applying policies , maintaining standards will be difficult acorss repositories , lack of shared code support |
+
 ---------------
