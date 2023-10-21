@@ -113,5 +113,11 @@ some times , you will not have time for testing your biug fixes in other environ
 
 #
 
+### Forking vs. cloning
+- It's essential to note that "forked" repositories and "forking" aren't special operations.
+- Forked repositories are created using the standard git clone command.
+- Forked repositories are generally "server-side clones" managed and hosted by a Git service provider such as Azure Repos.
+- There's no unique Git command to create forked repositories.
+- A clone operation is essentially a copy of a repository and its history.
 
 
