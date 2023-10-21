@@ -6,7 +6,16 @@
   - Implement an instrumentation strategy
 
 
+### Sorter Cycle Time:
 
+When you adopt DevOps practices:
+- You shorten your cycle time by working in smaller batches. ( features)
+- Using more automation. (build , test , review , deployment tools)
+- Hardening your release pipeline. ( PR , code quality , status checks and scans)
+- Improving your telemetry. ( logs)
+- Deploying more frequently.
+
+#
 
 #### Design and implement Source Control
 #
