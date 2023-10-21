@@ -49,3 +49,18 @@ Instead of using a single server-side repository to act as the "central" codebas
 It means that each contributor has two Git repositories:
 - A private local one.
 - A public server-side one.
+
+#
+ ### Main/develop branch characteristics:
+
+- The main branch is the only way to release anything to production.
+- The main branch should always be in a ready-to-release state.
+- Protect the main branch with branch policies.
+- Any changes to the main branch flow through pull requests only.
+- Tag all releases in the main branch with Git tags.
+   tags are best for managing releases
+     scenarios :
+   - each PR megre should create a new version of branch.
+   - it is always better to create a tag and deploy the code from that tag
+     
+     
