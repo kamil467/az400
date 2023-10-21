@@ -75,3 +75,23 @@ It means that each contributor has two Git repositories:
 - Review and merge code with pull requests.
 - Automate what you inspect and validate as part of pull requests. - adding status checks jobs in PR such as code quality , unit test , build task for head branch, rebase branch from target branch. 
 - Tracks pull request completion duration and set goals to reduce the time it takes. - I will look how long a PR takes time for completion.
+- 
+### release branch cycle :
+
+A critical bug is identified in production how to roll-out the fix ?
+
+- we know every PR/ release we do create tags, just create a feature branch from the release tag.
+- fix the bugs in that feature branch
+- deploy the code from feature branch to production.
+- Now it is time for merge feature branch bug fix to main branch.
+- create tag in feature branch for bug release  and create PR for merging the feature branch bug fixes to main branch.
+
+There is an alternative approach instead of directly deploying from feature branch , you can merge your changes into main branch and trigger the pipeline.
+in most scenarios your main pipeline configured with well set of jobs and policies. so it is a best practice that deploying code from main branch.
+
+some times , you will not have time for testing your biug fixes in other environment , it might be a super priority bug fix - you will choose the right deployment model for this.
+
+#
+
+
+
