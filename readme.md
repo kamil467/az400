@@ -42,3 +42,10 @@ Trunk-based development ( also known as feature branch development)
 - The core idea behind the Feature Branch Workflow is that all feature development should take place in a dedicated branch instead of the main branch.
 - This encapsulation makes it easy for multiple developers to work on a particular feature without disturbing the main codebase.
 - It also means the main branch should never contain broken code, which is a huge advantage for continuous integration environments.
+#
+Forking workflow
+The Forking Workflow is fundamentally different than the other workflows discussed in this tutorial.
+Instead of using a single server-side repository to act as the "central" codebase, it gives every developer a server-side repository.
+It means that each contributor has two Git repositories:
+- A private local one.
+- A public server-side one.
