@@ -120,4 +120,15 @@ some times , you will not have time for testing your biug fixes in other environ
 - There's no unique Git command to create forked repositories.
 - A clone operation is essentially a copy of a repository and its history.
 
+#
+### What is the difference between TFS and git ?
+
+
+Team Foundation Version Control (TFVC):
+- TFVC is a centralized version control system. Typically, team members have only one version of each file on their dev machines. Historical data is maintained only on the server. Branches are path-based and created on the server.
+
+- Git: Git is a distributed version control system. Git repositories can live locally (on a developer's machine). Each developer has a copy of the source repository on their dev machine. Developers can commit each set of changes on their dev machine, perform version control operations such as history, and compare without a network connection.
+
+
+
 
