@@ -50,6 +50,10 @@ It means that each contributor has two Git repositories:
 - A private local one.
 - A public server-side one.
 
+It is best suit for open-source projects.
+- Typically ,you fork the official repo and keep a forked copy of that repo in your local.
+- the contributor can accept your commits without giving you access to main repo.
+
 #
  ### Main/develop branch characteristics:
 
