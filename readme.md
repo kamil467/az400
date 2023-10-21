@@ -51,8 +51,11 @@ It means that each contributor has two Git repositories:
 - A public server-side one.
 
 It is best suit for open-source projects.
-- Typically ,you fork the official repo and keep a forked copy of that repo in your local.
+- Typically ,you fork the official repo and keep a forked copy of that repo in online.
+- This new copy serves as their personal public repository—no other developers can push to it, but they can pull changes from it (we'll see why this is necessary in a moment).
+- When they're ready to publish a local commit, they push the commit to their public repository—not the official one.
 - the contributor can accept your commits without giving you access to main repo.
+- Then, they file a pull request with the main repository, which lets the project maintainer know that an update is ready to be integrated.
 
 #
  ### Main/develop branch characteristics:
