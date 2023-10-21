@@ -69,4 +69,9 @@ It means that each contributor has two Git repositories:
 - Use feature flags to manage long-running feature branches.
 - Changes from feature branches to the main only flow through pull requests.
 - Name your feature to reflect its purpose.
-     
+
+### Pull Request
+
+- Review and merge code with pull requests.
+- Automate what you inspect and validate as part of pull requests. - adding status checks jobs in PR such as code quality , unit test , build task for head branch, rebase branch from target branch. 
+- Tracks pull request completion duration and set goals to reduce the time it takes. - I will look how long a PR takes time for completion.
