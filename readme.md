@@ -152,5 +152,5 @@ Low defect counts are crucial for developing a reliable codebase.
                   - Enforcing a coding standard also helps with portability. 
 - Reusability : loose coupling , shared code base - how do you find reusability ? running static analysis.
 
-
+#### Placing good coding standard practices and regular code scans will helps to reduce the technical debt and maintain good code.
 
