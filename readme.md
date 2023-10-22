@@ -154,3 +154,24 @@ Low defect counts are crucial for developing a reliable codebase.
 
 #### Placing good coding standard practices and regular code scans will helps to reduce the technical debt and maintain good code.
 
+### Git Hooks
+Git hooks allow you to run custom scripts whenever certain important events occur in the Git life cycle—for example, committing, merging, and pushing.
+- client side hooks
+- server side hooks
+#
+#### client side hooks:
+- this hooks can be stored in .git/hooks folder in root repository.
+- you can implement checks like pre commit, post commit, pre-push.
+- scripts executes on client-side.
+- Verifying work Item ID association in your commit message Preventing you and your team from committing faulty code
+
+#
+
+#### Server side hooks
+
+
+
+
+
+  
+
