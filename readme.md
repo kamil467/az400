@@ -163,7 +163,8 @@ Git hooks allow you to run custom scripts whenever certain important events occu
 - this hooks can be stored in .git/hooks folder in root repository.
 - you can implement checks like pre commit, post commit, pre-push.
 - scripts executes on client-side.
-- Verifying work Item ID association in your commit message Preventing you and your team from committing faulty code
+- Verifying work Item ID association in your commit message Preventing you and your team from committing faulty code.
+- Pre , post checkout events
 
 #
 
