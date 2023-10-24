@@ -180,7 +180,8 @@ Remove a large file that was accidentally uploaded.
 Remove a sensitive file that shouldn't have been uploaded.
 
 -  `git filter-repo` tool can be used to rewrite history.
--  
+-  BFG Repo-Cleaner
+        - BFG Repo-Cleaner is a commonly used open-source tool for deleting or "fixing" content in repositories. It's easier to use than the git filter-branch command. For a single file or set of files, use the --delete-files option:
 
 
   
