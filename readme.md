@@ -183,6 +183,13 @@ Remove a sensitive file that shouldn't have been uploaded.
 -  BFG Repo-Cleaner
         - BFG Repo-Cleaner is a commonly used open-source tool for deleting or "fixing" content in repositories. It's easier to use than the git filter-branch command. For a single file or set of files, use the --delete-files option:
 
+#
+#### Type of Quality Process in each stages
+
+- Continuous deployment should include passive penetration tests as well as SSL and infrastructure scans.
+- Nightly test runs should include infrastructure scans and active penetration tests.
+- Continuous integration should include an Open-Source Software (OSS) vulnerability scan.
+-  The integrated development environment/pull request step should include static code analysis and code reviews.
 
   
 
