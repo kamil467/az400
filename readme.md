@@ -169,9 +169,18 @@ Git hooks allow you to run custom scripts whenever certain important events occu
 #
 
 #### Server side hooks
+  - executes on server side.
+  - gitHub : it fires certain event when git operations are performed. those can be handled using webhooks. like trigger an API call when certain code committed.
+    
+#
+#### Purge Git Repository
+The most common situations are where you want to:
+Significantly reduce the size of a repository by removing history.
+Remove a large file that was accidentally uploaded.
+Remove a sensitive file that shouldn't have been uploaded.
 
-
-
+-  `git filter-repo` tool can be used to rewrite history.
+-  
 
 
   
