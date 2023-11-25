@@ -27,5 +27,6 @@ Below arein-built security groups provided by DevOps
 #### CASE : To create and save queries on Shared Folder ,an user should be part of Project Adminstartor Group. But the group has more priviledge than what actually required for user. How do you give access user to only for shared queries ?
 
 Answer:
- - see following 
-
+ -  see below , user cannot save shared queries
+<img width="1440" alt="Screenshot 2023-11-25 at 12 19 26 PM" src="https://github.com/kamil467/az400/assets/31802480/e7d990cb-a115-4dfb-8c1f-810b82f8883b">
+    
