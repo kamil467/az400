@@ -29,4 +29,20 @@ Below arein-built security groups provided by DevOps
 Answer:
  -  see below , user cannot save shared queries
 <img width="1440" alt="Screenshot 2023-11-25 at 12 19 26 PM" src="https://github.com/kamil467/az400/assets/31802480/e7d990cb-a115-4dfb-8c1f-810b82f8883b">
-    
+
+Please find the screenshot below where you can make give premissions for queries:
+
+<img width="1440" alt="Screenshot 2023-11-25 at 1 11 54 PM" src="https://github.com/kamil467/az400/assets/31802480/bfe98f45-25af-4006-98ad-fc6124e72cd7">
+
+#
+**How you can give permissions to edit Dashboards on Project ?***
+
+Answer:
+- similarly queries , dashboard has security settings where you can modify the particular user permission for dashboard.
+
+#
+
+
+
+
+
