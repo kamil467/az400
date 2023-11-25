@@ -21,4 +21,11 @@ Below arein-built security groups provided by DevOps
 - Project Valid Users
 - Release Administrators
 - TeamName Team eg; MedicalServices Team
-  
+#
+**Case How do you give access user to a specific permission not adding to security groups ? **
+
+#### CASE : To create and save queries on Shared Folder ,an user should be part of Project Adminstartor Group. But the group has more priviledge than what actually required for user. How do you give access user to only for shared queries ?
+
+Answer:
+ - see following 
+
