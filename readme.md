@@ -1,5 +1,8 @@
 test
 second commit
+squash commit2
+
+squash commit1
   ### Skills Measured
   - Configure process and communications 10-20 %
   - Design and implement Source Control
