@@ -4,6 +4,7 @@ squash commit2
 
 squash commit1
 rebase 1
+rebase 2
   ### Skills Measured
   - Configure process and communications 10-20 %
   - Design and implement Source Control
